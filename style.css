@@ -1,0 +1,28 @@
+/*.todo-tital {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-button {
+    width: 280px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.todo-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.todo-add {
+    width: 80px;
+    height: 5px;
+    border: none;
+    background-color: palegreen;
+    border-radius: 10%;
+}*/
+.avatar {
+    display: flex;
+}
