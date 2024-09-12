@@ -1,28 +1,54 @@
-/*.todo-tital {
-    display: flex;
+*{
+    justify-items: center;
     justify-content: center;
-    align-items: center;
-}
-.todo-button {
-    width: 280px;
-    height: 30px;
     text-align: center;
-    font-size: 18px;
-    font-weight: 500;
+    padding: 0;
+    margin: 0;
 }
-.todo-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10%;
+
+#Board{
+    padding-top: 10px;
+    margin: 10px;
+    border-bottom: 20px solid rgba(26, 173, 26, 0.719);
+    background-color: rgb(181, 255, 255);
+    border-left: 3px solid black;
+    border-right: 3px solid black ;
+    border-top: 3px solid black ;
 }
-.todo-add {
-    width: 80px;
-    height: 5px;
+
+#RetryButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #ff2617; 
+    color: white; 
     border: none;
-    background-color: palegreen;
-    border-radius: 10%;
-}*/
-.avatar {
-    display: flex;
+    border-radius: 0;
+    cursor: pointer;
+    display: block; 
 }
+
+#RetryButton:hover {
+    background-color: #ff0000; 
+}
+
+#Reload{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    position: fixed;
+    top: 5px;
+    right: 20px;
+}
+
+.title{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium';
+    background-color: lightblue;
+    border: black solid 2px;
+    margin-bottom: 20px;
+}
+
